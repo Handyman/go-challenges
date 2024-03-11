@@ -49,7 +49,7 @@ func main() {
 }
 
 func processFile() {
-	file, err := os.Open("github/measurements.txt")
+	file, err := os.Open("data/measurements.txt")
 	if err != nil {
 		panic(err)
 	}
